@@ -1,4 +1,4 @@
-1£¬nlogµÄ°ü°²×°£¬´ò¿ªnuget¿ØÖÆÌ¨  Install-Package NLog.Config
-2£¬log4js°ü°²×° node install
-3, ÔËÐÐnodejs¹¤³ÌºÍc#¹¤³Ì£¬²âÊÔÈÕÖ¾ÎÄ¼þ
-4£¬Í¨¹ýNLogÅäÖÃÑùÀýÀïµÄ²»Í¬ÅäÖÃ¸ü¸Äc#¹¤³Ì¿ÉÒÔ²âÊÔ²»Í¬µÄÂ·¾¶Êä³ö
+1ï¼Œnlogçš„åŒ…å®‰è£…ï¼Œæ‰“å¼€nugetæŽ§åˆ¶å°  Install-Package NLog.Config
+2ï¼Œlog4jsåŒ…å®‰è£… npm install
+3, è¿è¡Œnodejså·¥ç¨‹å’Œc#å·¥ç¨‹ï¼Œæµ‹è¯•æ—¥å¿—æ–‡ä»¶
+4ï¼Œé€šè¿‡NLogé…ç½®æ ·ä¾‹é‡Œçš„ä¸åŒé…ç½®æ›´æ”¹c#å·¥ç¨‹å¯ä»¥æµ‹è¯•ä¸åŒçš„è·¯å¾„è¾“å‡º
