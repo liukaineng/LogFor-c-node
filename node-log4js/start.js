@@ -1,48 +1,7 @@
 const express = require('express'),
 bodyParser = require('body-parser'),
 path=require("path");
-var log4js = require('log4js');
-
-
-log4js.configure({
-    appenders: {
-        infoFile: {
-            type: 'dateFile',
-            filename: "log/infos/info.log"
-        },
-        info: {
-            type: "logLevelFilter",
-            level: "info",
-            maxLevel :"info",
-            appender: "infoFile"
-        },
-        debugFile: {
-            type: 'dateFile',
-            filename: 'log/',
-            pattern: 'yyyy-MM-dd.log',
-            alwaysIncludePattern: true,
-        },
-        debug: {
-            type: "logLevelFilter",
-            level: "debug",
-            maxLevel :"debug",
-            appender: "debugFile"
-        },
-        errorFile: {
-            "type": "file",
-            "filename": "log/errors/error.log"
-        },
-        errors: {
-            type: "logLevelFilter",
-            level: "error",
-            appender: "errorFile"
-        }
-    },
-    categories: {
-        default: { appenders: ['info','debug', "errors"], level: 'debug' }
-    }
-});
-var logger = log4js.getLogger();
+var logger = require('./logger').logger;
 
 var app = express();
 // bodyParser.urlencoded解析form表单提交的数据
